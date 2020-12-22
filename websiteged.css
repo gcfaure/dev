@@ -13,34 +13,96 @@
     src: url(fonts/montserrat/Montserrat-Light.ttf) format('truetype');
 }
 
-#entête_fixe{
+#haut{
+    border: 4px solid black;
+    background: rgba(249, 219, 189, 1);
+    position: fixed;
+    width: 100%;
+}
+
+#entete_fixe{
     font-family: pricedown; /* police */
     font-size: 20px; 
     color:skyblue;
-    border: 2px solid rgba(255, 0, 0, 0.6);
-    box-shadow: 6px 6px 3px violet;
-    background: saddlebrown;
-    width: 15%;
-    min-width: 150px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    box-shadow: 6px 6px 3px rgba(25, 42, 81, 1);
+    background: rgba(0, 37, 0, 1);
+    width: 20%;
+    min-width: 175px;
     padding: 2px 10px 2px 10px;
-    
+    height: 10%;
+    min-height: 50px;
+    margin-top: 0px;
+}
+
+#menu{
+    display: flex;
+    justify-content:space-around;
+    border: 2px solid rgba(25, 42, 81, 1);
+    background: rgba(25, 42, 81, 1);
+    margin-top: 0;
+}
+
+#menu a{
+    color : rgba(183, 156, 237, 1);
+    visibility: hidden;
+}
+
+#gauche{
+    width: 30%;
+    min-width: 100px;
+    margin: 200px 10px 0 0;
 }
 
 #intro{
     border: 1px solid black;
-    width: 30%;
-    min-width: 100px;
-    height: 300px;
-    padding: 2px 10px 2px 10px ;
-    margin: 10px 10px 10px 5px;
+    height: 200px;
+    overflow: scroll;
+    padding: 0 3px 0 3px;
 }
 
 #Salut{
     font-family: kindergarten;
+    font-style: inherit;
+    font-weight: bold;
 }
 
 #intentions{
     font-family: montserrat;
+    font-size: 12px;
+    font-weight: bold;
 }
+
+#video_gmp{
+    font-family: montserrat ;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#principal{
+    display: flex;
+    justify-content: right;
+}
+
+audio{
+    width: 70%;
+    min-width: 100px;
+    margin: 20px 20px 0px 0px;
+}
+
+#audio_et_entete{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Time_line{
+    width: 70%;
+    margin: 185px 0 0 0;
+    padding: 0
+
+}
+
+
+
 
 
