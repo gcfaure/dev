@@ -1,0 +1,46 @@
+@font-face{
+    font-family: pricedown;
+    src: url(fonts/pricedown/pricedown\ bl.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: kindergarten;
+    src: url(fonts/kindergarten/kindergarten.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: montserrat;
+    src: url(fonts/montserrat/Montserrat-Light.ttf) format('truetype');
+}
+
+#entête_fixe{
+    font-family: pricedown; /* police */
+    font-size: 20px; 
+    color:skyblue;
+    border: 2px solid rgba(255, 0, 0, 0.6);
+    box-shadow: 6px 6px 3px violet;
+    background: saddlebrown;
+    width: 15%;
+    min-width: 150px;
+    padding: 2px 10px 2px 10px;
+    
+}
+
+#intro{
+    border: 1px solid black;
+    width: 30%;
+    min-width: 100px;
+    height: 300px;
+    padding: 2px 10px 2px 10px ;
+    margin: 10px 10px 10px 5px;
+}
+
+#Salut{
+    font-family: kindergarten;
+}
+
+#intentions{
+    font-family: montserrat;
+}
+
+
