@@ -32,8 +32,7 @@
 }
 
 h1{
-    margin: 0;
-    vertical-align: middle;
+    margin-top: 17px;
 }
 
 #menu{
@@ -98,6 +97,7 @@ audio{
     box-shadow: 2px 2px 3px black;
     border-radius: 100px;
     height: 30px;
+    vertical-align: middle;
 }
 
 #audio_et_entete{
@@ -116,37 +116,31 @@ audio{
     margin-top: 20px;
 }
 
-#form1{
-    font-family: montserrat;
-    font-weight: bold;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 5px;
-    border: 1px solid black;
-}
-
-#form2{
-    font-family: montserrat;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-top: 5px;
-    border: 1px solid black;
-}
-
-#form-text{
-    font-weight: bold;
-    font-family: montserrat;
-}
-
-.form-group{
-    margin-top: 10px;
-}
-
 #Ludovik{
     width: 100%;
     margin-top: 20px;
+}
+
+#pseudo{
+    width: 90%;
+    font-family: montserrat;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#message{
+    width: 90%;
+    font-family: montserrat;
+    font-weight: bold;
+    margin-top: 5px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.indic{
+    font-family: montserrat;
+    font-weight: bold;
 }
