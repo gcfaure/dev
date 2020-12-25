@@ -1,0 +1,144 @@
+@font-face{
+    font-family: pricedown;
+    src: url(fonts/pricedown/pricedown\ bl.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: kindergarten;
+    src: url(fonts/kindergarten/kindergarten.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: montserrat;
+    src: url(fonts/montserrat/Montserrat-Light.ttf) format('truetype');
+}
+
+#haut{
+    background: rgba(249, 219, 189, 1);
+    height: 115px;
+    margin: 0 ;
+    padding: 0px;
+}
+
+#entete_fixe{
+    border: 2px solid black;
+    background: rgba(0, 37, 0, 1);
+    width: 30%;
+    font-family: pricedown;
+    color:skyblue;
+    height: 100px;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+    justify-content:space-around;
+    border: 2px solid rgba(25, 42, 81, 1);
+    background: rgba(25, 42, 81, 1);
+    margin: 0;
+}
+
+#menu a{
+    color : rgba(255,255,255,1);
+    text-decoration: none;
+    font-family: montserrat;
+    /* visibility: hidden; */
+}
+
+#gauche{
+    width: 30%;
+    min-width: 100px;
+}
+
+#intro{
+    border: 1px solid black;
+    height: 200px;
+    overflow: scroll;
+    padding: 0 3px 0 3px;
+}
+
+#Salut{
+    font-family: kindergarten;
+    font-style: inherit;
+    font-weight: bold;
+}
+
+#intentions{
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#video_gmp{
+    font-family: montserrat ;
+    font-size: 15px;
+    font-weight: bold;
+    height: 200px;
+}
+
+#principal{
+    display: flex;
+    justify-content: right;
+}
+
+audio{
+    width: 70%;
+    min-width: 100px;
+    margin: 10px 20px 0px 20px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 100px;
+    height: 30px;
+}
+
+#audio_et_entete{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Time_line{
+    width: 70%;
+    overflow: scroll;
+    height: 500px;
+    margin-left: 10px;
+}
+
+#principal{
+    margin-top: 20px;
+}
+
+#form1{
+    font-family: montserrat;
+    font-weight: bold;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+#form2{
+    font-family: montserrat;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+#form-text{
+    font-weight: bold;
+    font-family: montserrat;
+    font-size: 3vw;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+
+#Ludovik{
+    width: 100%;
+}
