@@ -19,8 +19,6 @@
                     <h1>Ged le boss.com</h1>
                 </div>
                 <audio id="sound" src="bob_sinclar_save_our_saul.mp3" controls loop>La musique de la semaine</audio>
-                
-
             </div>
 
             <nav id="menu">
@@ -42,14 +40,14 @@
                     Si vous avez des idées de modifs hésitez pas.
                     </p>
                 </div>
-                <form name="comment" method="POST" data-netlify="true">
+                <form method="POST" data-netlify="true">
                     <div class="form-group">
                       <label id="form-text">Identité :</label>
-                      <input type="text" id="form1" placeholder="pseudo?">
+                      <input name="pseudo" type="text" id="form1" placeholder="pseudo?">
                     </div>
                     <div class="form-group">
-                      <label id="form-text">Commentaire :</label>
-                          <textarea name="textarea" id="form2" cols="30" rows="7" placeholder="commentaire"></textarea>
+                        <label id="form-text">Commentaire :</label>
+                        <textarea name="comment" id="form2" cols="30" rows="7" placeholder="commentaire"></textarea>
                     </div>
                     <input type="hidden" name="form-name" value="contact">
                     <button type="submit">Send</button>
