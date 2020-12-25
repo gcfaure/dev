@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width"/>
+    <title>ged.com</title>
+    <link rel="stylesheet" href="websiteged.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="websitegedtel.css">
+    <link rel="icon" href="image1-2-1-1200x900.ico"/>
+<head>
+<body>
+
+    <div id="page_accueil">
+        
+        <header id="haut">
+            <div id="audio_et_entete">
+                <div id=entete_fixe>
+                    <h1>Ged le boss.com</h1>
+                </div>
+                <audio id="sound" src="bob_sinclar_save_our_saul.mp3" controls loop>La musique de la semaine</audio>
+                
+
+            </div>
+
+            <nav id="menu">
+                <a href="" id="TL">TL</a>
+                <a href="" id="Images">Photos</a>
+                <a href="" id="Vidéos">Vidéos</a>
+            </nav>
+        </header>
+
+        <section id="principal">
+            <div id="gauche">
+                <div id="intro">
+                    <p id="Salut">
+                    Salut à tous, soyez les bienvenus sur mon "blog". 
+                    </p>
+                    <p id="intentions">
+                    J'ai pour intention de partager ici quelques trucs un peu au hasard qui ne feraient pas forcément sens autre part.
+                    Ceci est un premier jet donc tranquille hein. 
+                    Si vous avez des idées de modifs hésitez pas.
+                    </p>
+                </div>
+                <form name="comment" method="POST" data-netlify="true">
+                    <div class="form-group">
+                      <label id="form-text">Identité :</label>
+                      <input type="text" id="form1" placeholder="pseudo?">
+                    </div>
+                    <div class="form-group">
+                      <label id="form-text">Commentaire :</label>
+                          <textarea name="textarea" id="form2" cols="30" rows="7" placeholder="commentaire"></textarea>
+                    </div>
+                    <input type="hidden" name="form-name" value="contact">
+                    <button type="submit">Send</button>
+                  </form>
+            </div>
+            
+            <div id="Time_line">
+                <div id="video_gmp">
+                    <p id="intro_vidéo">
+                    Dernière création en date, avant ce sublime site internet, 
+                    une vidéo de présentation pour l'IUT. 
+                    Bon à savoir, j'ai tout fait la veille du rendu final (+une partie nulle que vous verrez
+                    pas sur 2 métiers en lien avec la formation GMP) et grâce a cette splendide idée
+                    je suis arrivé 1h en retard a mon partiel qui se tenait le lendemain.
+                    N'ayez crainte, j'ai géré et ça va oklm.
+                    </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DGtBzfJE_Dk" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen id="video"></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/W5h6HzK6sOs" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen id="Ludovik"></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script id="video" src="websiteged.js"></script>
+
+</body>
+</html>
